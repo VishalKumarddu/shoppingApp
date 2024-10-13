@@ -1,0 +1,71 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #56285e;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo container */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* Navigation link item */
+.navbar-item {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Cart icon styling */
+.cart-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.logo {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Hover effect on links */
+.navbar-item:hover {
+  color: #f8c146;
+  transition: color 0.3s ease;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar-item {
+    margin: 10px 0;
+  }
+}
+
+

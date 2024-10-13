@@ -1,0 +1,94 @@
+/* Container for the Home component */
+.home {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the search bar container */
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for the search input field */
+.search-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+/* Focus effect for the search input */
+.search-input:focus {
+  border: 1px solid #007bff;
+}
+
+/* Style for the product list container */
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Style for the "No products found" message */
+.no-products {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Spinner styling */
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Styling for the product card */
+.product-card {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+/* Hover effect for product card */
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Product image */
+.product-card img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Product title and description */
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Product price */
+.product-price {
+  font-size: 16px;
+  color: #28a745;
+}
